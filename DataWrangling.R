@@ -4,7 +4,7 @@ setwd('/Users/justinpimentel/Downloads/Personal Project')
 
 fileNames = list.files('OPE CSS Custom Data 2019-06-23 184005', pattern = '*.csv', full.names = T)
 fileNames2 = list.files('OPE CSS Custom Data 2019-06-23 184005', pattern = '*.csv', full.names = F)
-data <- lapply(fileNames, function(x) {read.csv(x, stringsAsFactors = F)})
+data <- lapply(fileNames, function(x) {read.csv(x, stringsAsFactors = F, quote = "", row.names = NULL)})
 locationsData <- read.csv('Most-Recent-Cohorts-All-Data-Elements.csv') 
 
 
