@@ -1,6 +1,6 @@
 # Campus-Safety
 This is ONLY the data-wrangling that I did for my analysis on campus safety. 
-#### This project is currently being worked on. 
+#### This project is currently on pause for a new project I am working on. 
 
 
 Sources:
